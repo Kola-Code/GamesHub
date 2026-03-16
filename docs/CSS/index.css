@@ -261,6 +261,7 @@ body::before {
 .hero-title span:nth-child(2) { animation-delay: 0.2s; color: var(--pink); }
 .hero-title span:nth-child(3) { animation-delay: 0.4s; color: var(--blue); }
 .hero-title span:nth-child(4) { animation-delay: 0.6s; color: var(--purple); }
+.hero-title span:nth-child(5) { animation-delay: 0.8s; color: var(--green); }
 
 .hero-sub {
   font-family: var(--font-fun);

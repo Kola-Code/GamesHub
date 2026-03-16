@@ -97,13 +97,13 @@ function createRoom() {
   localStorage.setItem('cn_room_mode', selectedModalMode);
 
   // Redirige vers la salle
-  window.location.href = '/Games/CodeNames/Room.html';
+  window.location.href = '../GamesHub/Games/CodeNames/Room.html';
 }
 
 function joinRoom(name, mode) {
   localStorage.setItem('cn_room_name', name);
   localStorage.setItem('cn_room_mode', mode);
-  window.location.href = '/Games/CodeNames/Room.html';
+  window.location.href = '../GamesHub/Games/CodeNames/Room.html';
 }
 
 /* ============================================================
